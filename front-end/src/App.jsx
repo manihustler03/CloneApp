@@ -1,20 +1,19 @@
-import { useState } from 'react'
-
-import Button from './Button'
-import ArunPage from './ArunPage'
+// src/App.js
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Register from './pages/Register'; 
+import Login from './pages/Login';
 
 function App() {
   return (
-    <>
-    <ArunPage/>
-      <h1 className="text-3xl font-bold  bg-gradient-to-r from-red-600  to-yellow-400 inline-block text-transparent bg-clip-text">
-      Instagram Clone
-    </h1>
-    <p>This app is fully responsive</p>
-    <Button/>
-    
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />          {/* Home route */}
+        <Route path="/register" element={<Register />} /> {/* Register route */}
+        {/* Add more routes as needed */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
