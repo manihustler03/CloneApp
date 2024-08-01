@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './Button'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       Instagram Clone
     </h1>
     <p>This app is fully responsive</p>
+    <Button/>
     </>
   )
 }
