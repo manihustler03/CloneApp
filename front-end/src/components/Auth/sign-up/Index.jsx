@@ -27,7 +27,7 @@ const Index = () => {
                     <input className='w-5 rounded-lg' type="checkbox" name="" id="" />
                     <label className='font-mono'  htmlFor="">Apply terms and conditions </label>
                 </div>
-                <button className='bg-black text-white text-lg font-medium py-2.5 rounded-lg'>Create account</button>
+                <button className='bg-black text-white text-lg font-medium py-2.5 rounded-lg tracking-widest'>Create account</button>
             </form>
             <div className='flex flex-col gap-3'>
                 <p className='text-[11px] tracking-wider  text-gray-500 text-center'> By clicking "Create account" or "Continue with Google", you agree to the Our <span className='text-[#5551ff]'>TOS</span> and <span className='text-[#5551ff]'>Privacy Policy.</span></p>
