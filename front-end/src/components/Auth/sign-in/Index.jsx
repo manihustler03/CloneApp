@@ -5,10 +5,10 @@ const Index = () => {
   return (
     <>
     <main className='flex justify-center mt-7 '>
-        <div className='w-[400px] flex flex-col gap-7 items-center'>
+        <div className='w-[400px] px-2 md:px-0 flex flex-col gap-7 items-center'>
             <h2 className='text-2xl font-bold tracking-wider'>Sign in to Instagram</h2>
-            <button className='border border-black w-full py-3 rounded-lg text-xl flex justify-center gap-2 items-center'>
-               <img src="google.svg" alt="" className='w-6 '/><h1> Continue with Google</h1></button>
+            <button className='border border-black w-full py-3 rounded-lg  flex justify-center gap-2 items-center'>
+               <img src="google.svg" alt="" className='w-6 '/><h1 className='text-lg md:text-xl'> Continue with Google</h1></button>
             <p className='text-sm'>or</p>
             <form action="" className='w-full flex flex-col gap-3'>
                 <div className='bg-zinc-300 px-3 rounded-lg py-1 pb-1'>
