@@ -13,9 +13,8 @@ function App() {
         <Route path="/" element={<Login />} />          {/* Home route */}
         <Route path="/register" element={<Register />} /> {/* Register route */}
         <Route path='/home' element={<HomePage/>}/>
-        <Route path='/profile' element={<ProfilePage/>} />      {/* Add more routes as needed */}
-        
-      </Routes>
+        <Route path='/profile' element={<ProfilePage/>} /> 
+              </Routes>
     </BrowserRouter>
   );
 }
